@@ -182,6 +182,135 @@
                 {
                     "sampler" : 0,
                     "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "setumeiAction",
+            "samplers" : [
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 70
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 71
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 72
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "daimeiAction",
+            "samplers" : [
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 73
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 74
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 75
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "aikon kibanAction",
+            "samplers" : [
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 76
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 77
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 78
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
                         "node" : 3,
                         "path" : "translation"
                     }
@@ -204,19 +333,148 @@
             "name" : "yubiAction",
             "samplers" : [
                 {
-                    "input" : 69,
+                    "input" : 79,
                     "interpolation" : "LINEAR",
-                    "output" : 70
+                    "output" : 80
                 },
                 {
-                    "input" : 71,
+                    "input" : 81,
                     "interpolation" : "LINEAR",
-                    "output" : 72
+                    "output" : 82
+                },
+                {
+                    "input" : 79,
+                    "interpolation" : "LINEAR",
+                    "output" : 83
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 4,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 4,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 4,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "sumaho hontai.001Action",
+            "samplers" : [
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 84
                 },
                 {
                     "input" : 69,
                     "interpolation" : "LINEAR",
-                    "output" : 73
+                    "output" : 85
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 86
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 5,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 5,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 5,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "sumaho hontaiAction",
+            "samplers" : [
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 87
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 88
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 89
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 6,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 6,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 6,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "rockAction",
+            "samplers" : [
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 90
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 91
+                },
+                {
+                    "input" : 69,
+                    "interpolation" : "LINEAR",
+                    "output" : 92
                 }
             ]
         },
@@ -247,19 +505,19 @@
             "name" : "rock.001Action",
             "samplers" : [
                 {
-                    "input" : 74,
+                    "input" : 81,
                     "interpolation" : "LINEAR",
-                    "output" : 75
+                    "output" : 93
                 },
                 {
-                    "input" : 76,
+                    "input" : 79,
                     "interpolation" : "LINEAR",
-                    "output" : 77
+                    "output" : 94
                 },
                 {
-                    "input" : 74,
+                    "input" : 81,
                     "interpolation" : "LINEAR",
-                    "output" : 78
+                    "output" : 95
                 }
             ]
         }
@@ -1175,56 +1433,44 @@
         {
             "bufferView" : 69,
             "componentType" : 5126,
-            "count" : 81,
+            "count" : 2,
             "max" : [
-                3.3333333333333335
+                83.33333333333333
             ],
             "min" : [
-                0
+                3.75
             ],
             "type" : "SCALAR"
         },
         {
             "bufferView" : 70,
             "componentType" : 5126,
-            "count" : 81,
+            "count" : 2,
             "type" : "VEC3"
         },
         {
             "bufferView" : 71,
             "componentType" : 5126,
             "count" : 2,
-            "max" : [
-                3.3333333333333335
-            ],
-            "min" : [
-                0
-            ],
-            "type" : "SCALAR"
+            "type" : "VEC4"
         },
         {
             "bufferView" : 72,
             "componentType" : 5126,
             "count" : 2,
-            "type" : "VEC4"
+            "type" : "VEC3"
         },
         {
             "bufferView" : 73,
             "componentType" : 5126,
-            "count" : 81,
+            "count" : 2,
             "type" : "VEC3"
         },
         {
             "bufferView" : 74,
             "componentType" : 5126,
             "count" : 2,
-            "max" : [
-                3.75
-            ],
-            "min" : [
-                0
-            ],
-            "type" : "SCALAR"
+            "type" : "VEC4"
         },
         {
             "bufferView" : 75,
@@ -1235,9 +1481,27 @@
         {
             "bufferView" : 76,
             "componentType" : 5126,
-            "count" : 91,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 77,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 78,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 79,
+            "componentType" : 5126,
+            "count" : 2001,
             "max" : [
-                3.75
+                83.33333333333333
             ],
             "min" : [
                 0
@@ -1245,13 +1509,103 @@
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 77,
+            "bufferView" : 80,
             "componentType" : 5126,
-            "count" : 91,
+            "count" : 2001,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 81,
+            "componentType" : 5126,
+            "count" : 2,
+            "max" : [
+                83.33333333333333
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 82,
+            "componentType" : 5126,
+            "count" : 2,
             "type" : "VEC4"
         },
         {
-            "bufferView" : 78,
+            "bufferView" : 83,
+            "componentType" : 5126,
+            "count" : 2001,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 84,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 85,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 86,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 87,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 88,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 89,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 90,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 91,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 92,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 93,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 94,
+            "componentType" : 5126,
+            "count" : 2001,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 95,
             "componentType" : 5126,
             "count" : 2,
             "type" : "VEC3"
@@ -1605,58 +1959,143 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 324,
+            "byteLength" : 8,
             "byteOffset" : 10524172
         },
         {
             "buffer" : 0,
-            "byteLength" : 972,
-            "byteOffset" : 10524496
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 8,
-            "byteOffset" : 10525468
+            "byteLength" : 24,
+            "byteOffset" : 10524180
         },
         {
             "buffer" : 0,
             "byteLength" : 32,
-            "byteOffset" : 10525476
+            "byteOffset" : 10524204
         },
         {
             "buffer" : 0,
-            "byteLength" : 972,
-            "byteOffset" : 10525508
+            "byteLength" : 24,
+            "byteOffset" : 10524236
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10524260
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 10524284
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10524316
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10524340
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 10524364
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10524396
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8004,
+            "byteOffset" : 10524420
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24012,
+            "byteOffset" : 10532424
         },
         {
             "buffer" : 0,
             "byteLength" : 8,
-            "byteOffset" : 10526480
+            "byteOffset" : 10556436
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 10556444
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24012,
+            "byteOffset" : 10556476
         },
         {
             "buffer" : 0,
             "byteLength" : 24,
-            "byteOffset" : 10526488
+            "byteOffset" : 10580488
         },
         {
             "buffer" : 0,
-            "byteLength" : 364,
-            "byteOffset" : 10526512
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 1456,
-            "byteOffset" : 10526876
+            "byteLength" : 32,
+            "byteOffset" : 10580512
         },
         {
             "buffer" : 0,
             "byteLength" : 24,
-            "byteOffset" : 10528332
+            "byteOffset" : 10580544
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10580568
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 10580592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10580624
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10580648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 10580672
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10580704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10580728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32016,
+            "byteOffset" : 10580752
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 10612768
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 10528356,
+            "byteLength" : 10612792,
             "uri" : "seitaisensa.bin"
         }
     ]
